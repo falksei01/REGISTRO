@@ -1,0 +1,84 @@
+import xml.etree.cElementTree as et 
+
+
+root = et.Element("Alumnos2")
+root = et.Element("edificio2")
+se = et.SubElement (root, "Desarrollo de software")
+et.SubElement(se, "Nombre").text="Osiel Ovalle"
+et.SubElement(se, "Matricula").text="18040022"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Desarrollo de software")
+et.SubElement(se, "Nombre").text="Diego Mendoza"
+et.SubElement(se, "Matricula").text="18040023"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Desarrollo de software")
+et.SubElement(se, "Nombre").text="Alejandra Torres"
+et.SubElement(se, "Matricula").text="18040024"
+
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Desarrollo de software")
+et.SubElement(se, "Nombre").text="Javier Ibarra"
+et.SubElement(se, "Matricula").text="18040024"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Desarrollo de software")
+et.SubElement(se, "Nombre").text="Roberto Martinez"
+et.SubElement(se, "Matricula").text="18040026"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Multimedia")
+et.SubElement(se, "Nombre").text="fco javier "
+et.SubElement(se, "Matricula").text="18040028"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Multimedia")
+et.SubElement(se, "Nombre").text="Diego Flores"
+et.SubElement(se, "Matricula").text="18040030"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Multimedia")
+et.SubElement(se, "Nombre").text="Iliana Herrera"
+et.SubElement(se, "Matricula").text="18040032"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Multimedia")
+et.SubElement(se, "Nombre").text="Joe gomez"
+et.SubElement(se, "Matricula").text="18040034"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Multimedia")
+et.SubElement(se, "Nombre").text="Roberto perez"
+et.SubElement(se, "Matricula").text="18040036"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Redes")
+et.SubElement(se, "Nombre").text="nadia villanueva"
+et.SubElement(se, "Matricula").text="18040038"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Redes")
+et.SubElement(se, "Nombre").text="Paula chairez"
+et.SubElement(se, "Matricula").text="18040040"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Redes")
+et.SubElement(se, "Nombre").text="Isidro mendez"
+et.SubElement(se, "Matricula").text="18040043"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Redes")
+et.SubElement(se, "Nombre").text="Jonathan hernandez"
+et.SubElement(se, "Matricula").text="18040044"
+
+root = et.Element("edificio2")
+se = et.SubElement (root, "Redes")
+et.SubElement(se, "Nombre").text="luis sanchez"
+et.SubElement(se, "Matricula").text="18040046"
+
+
+
+tree = et.ElementTree(root)
+tree.write("Alumnos2.xml", xml_declaration=True)
