@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body bgcolor="#00FFFF">
+<center>
+<form id="form1" name="form1" method="post" action="mostar-contacto.php">
+  <h1><p>Mis contactos  </p></h1>
+  <p>
+    <label for="textfield">Nombre</label>
+  </p>
+  <p>
+    <input name="nombre" type="text" id="nombre" size="40" />
+  </p>
+  <p>
+    <label for="email">Email</label>
+    </p>
+  <p>
+    <input type="email" name="email" id="email" size="40" />
+  </p>
+  <p>
+    <label for="password">Password</label>
+    </p>
+  <p>
+    <input name="password" type="password" id="password" size="40" />
+  </p>
+  <p>
+    <label for="url">Url</label>
+    </p>
+  <p>
+    <input type="url" name="url" id="url" size="40" />
+  </p>
+  <p>Cuidad
+ 
+    <select name="Cuidad">
+      <option value="Monterrey" selected="selected">Monterrey</option>
+      <option value="Coahuila">Coauila</option>
+      <option value="Guadalajara">Guadalajara</option>
+    </select>
+  </p>
+  <p><label>Estado civil</label>&nbsp;</p>
+  <p>
+    <label>
+      <input type="radio" name="soltero" value="soltero" id="estadocivil_0" />
+      soltero</label>
+    <br />
+    <label>
+      <input type="radio" name="casado" value="casado" id="estadocivil_1" />
+      casado</label>
+    <br />
+    <label>
+      <input type="radio" name="otros" value="Otros" id="estadocivil_2" />
+      Otros</label>
+    <br />
+  </p>
+  <p>
+    <input type="submit" name="enviar" id="enviar" value="Mostrar Datos" />
+  </p>
+  <p>&nbsp;</p>
+</form>
+</center>
+</body>
+</html>
